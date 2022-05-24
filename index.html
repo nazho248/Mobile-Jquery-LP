@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <!-- Lenguaje -->
 <html lang="es">
 <!-- Cabecera de la página -->
@@ -23,7 +23,7 @@
 		<h1>Proyectos Lenguaje de programacion</h1>
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="e">	
+<!-- 	<div data-role="content" data-theme="e">	
         <ul data-role="listview" data-inset="true" data-filter="true">
             <li><a href="#" >Python</a></li>
             <li><a href="#">Ruby</a></li>
@@ -32,7 +32,97 @@
             <li><a href="#">C#</a></li>
             <li><a href="#">C++</a></li>
         </ul>
-	</div><!-- /content -->
+	</div> -->
+
+
+    <div data-role="content">
+
+        <ul data-role="listview">
+            <li data-role="list-divider">A</li>
+            <div data-role="collapsible" data-theme="b" data-content-theme="c">
+                <h2>Choose a car model...</h2>
+                <ul data-role="listview">
+                    <li><a href="index.html">Acura</a></li>
+                    <li><a href="index.html">Audi</a></li>
+                    <li><a href="index.html">BMW</a></li>
+                    <li><a href="index.html">Cadillac</a></li>
+                    <li><a href="index.html">Chrysler</a></li>
+                    <li><a href="index.html">Dodge</a></li>
+                    <li><a href="index.html">Ferrari</a></li>
+                    <li><a href="index.html">Ford</a></li>
+                    <li><a href="index.html">GMC</a></li>
+                    <li><a href="index.html">Honda</a></li>
+                    <li><a href="index.html">Hyundai</a></li>
+                    <li><a href="index.html">Infiniti</a></li>
+                    <li><a href="index.html">Jeep</a></li>
+                    <li><a href="index.html">Kia</a></li>
+                    <li><a href="index.html">Lexus</a></li>
+                    <li><a href="index.html">Mini</a></li>
+                    <li><a href="index.html">Nissan</a></li>
+                    <li><a href="index.html">Porsche</a></li>
+                    <li><a href="index.html">Subaru</a></li>
+                    <li><a href="index.html">Toyota</a></li>
+                    <li><a href="index.html">Volkswagon</a></li>
+                    <li><a href="index.html">Volvo</a></li>
+                </ul>
+            </div>
+            <li data-role="list-divider">B</li>
+            <li><a href="index.html">Bob Cabot</a></li>
+            <li data-role="list-divider">C</li>
+            <li><a href="index.html">Caleb Booth</a></li>
+            <li><a href="index.html">Christopher Adams</a></li>
+            <li><a href="index.html">Culver James</a></li>
+            <li data-role="list-divider">D</li>
+            <li><a href="index.html">David Walsh</a></li>
+            <li><a href="index.html">Drake Alfred</a></li>
+            <li data-role="list-divider">E</li>
+            <li><a href="index.html">Elizabeth Bacon</a></li>
+            <li><a href="index.html">Emery Parker</a></li>
+            <li><a href="index.html">Enid Voldon</a></li>
+            <li data-role="list-divider">F</li>
+            <li><a href="index.html">Francis Wall</a></li>
+            <li data-role="list-divider">G</li>
+            <li><a href="index.html">Graham Smith</a></li>
+            <li><a href="index.html">Greta Peete</a></li>
+            <li data-role="list-divider">H</li>
+            <li><a href="index.html">Harvey Walls</a></li>
+            <li data-role="list-divider">M</li>
+            <li><a href="index.html">Mike Farnsworth</a></li>
+            <li><a href="index.html">Murray Vanderbuilt</a></li>
+            <li data-role="list-divider">N</li>
+            <li><a href="index.html">Nathan Williams</a></li>
+            <li data-role="list-divider">P</li>
+            <li><a href="index.html">Paul Baker</a></li>
+            <li><a href="index.html">Pete Mason</a></li>
+            <li data-role="list-divider">R</li>
+            <li><a href="index.html">Rod Tarker</a></li>
+            <li data-role="list-divider">S</li>
+            <li><a href="index.html">Sawyer Wakefield</a></li>
+        </ul>
+        </div><!--/content-primary -->
+
+    <!-- /content -->
+
+    <h1>insertar texto jquery</h1>
+    <script>
+function load() {
+    var file = new XMLHttpRequest();
+    file.open("GET", "main.txt", true);
+    file.onreadystatechange = function() {
+      if (file.readyState === 4) {  // Makes sure the document is ready to parse
+        if (file.status === 200) {  // Makes sure it's found the file
+          text = file.responseText;
+          document.getElementById("div1").innerHTML = text;
+        }
+      }
+    }
+}
+
+window.onLoad = load();
+    </script>
+    <div id="div1"></div>
+
+
 
     <div data-role="footer">
         <h4>El footer</h4>
