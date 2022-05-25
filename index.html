@@ -1,132 +1,183 @@
- <!DOCTYPE html>
-<!-- Lenguaje -->
-<html lang="es">
-<!-- Cabecera de la página -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- Impirmir caracteres especiales como la ñ -->   
     <meta charset="UTF-8">
-    <!-- Adaptación a las resoluciones de pantalla -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- Declaracion de estilos -->
-    <link rel="stylesheet" type="text/css" href="jquery/jquery.mobile-1.3.0.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
 
-    <!-- Declaracion de scrips jquery y adicionales -->
-    <script type="text/javascript" charset="utf-8" src="jquery/jquery.js"></script>
-    <script type="text/javascript" charset="utf-8" src="jquery/jquery.mobile-1.3.0.js"></script>
+
+    <!-- font awesone icons -->
+    <script src="https://kit.fontawesome.com/594bc3b560.js" crossorigin="anonymous"></script>
+        <!-- Impirmir caracteres especiales como la ñ -->   
+        <meta charset="UTF-8">
+        <!-- Adaptación a las resoluciones de pantalla -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Declaracion de estilos -->
+    
+        <!-- Declaracion de scrips jquery y adicionales -->
+        <link rel="stylesheet"  href="/demos/css/themes/default/jquery.mobile-1.2.0.css" /> 
+        <link rel="stylesheet" href="/demos/docs/_assets/css/jqm-docs.css"/>
+      
+        <script src="/demos/js/jquery.js"></script>
+        <script src="/demos/docs/_assets/js/jqm-docs.js"></script>
+        <script src="/demos/js/jquery.mobile-1.2.0.js"></script>
+    
+        <!-- Declaracion del estilo del offcanvas -->
+        <link rel="stylesheet" type="text/css" href="/offstyle.css">
+
+
+
+
+        
 </head>
+<body id="body">
+    <menu class="menu">
+      <li>
+        <a href="/index.html" class="fa fa-home"></a>
+      </li>
+      <li>
+        <a href="#"> <i class="fa-solid fa-chess-king"></i></a>
+      </li>
+      <li>
+        <a href="#" > <i class="fa-solid fa-code"></i></a>
+      </li>
+      <li>
+        <a href="#" class="fa fa-globe"></a>
+      </li>
+      <li>
+        <a href="#" class="fa fa-gear"></a>
+      </li>
+      <li>
+        <a href="#" class="fa fa-search"></a>
+      </li>
+    </menu>
+    <div class="content-wrapper">
 
-<body> 
 
+      
 <div data-role="page">
 
 	<div data-role="header">
 		<h1>Proyectos Lenguaje de programacion</h1>
 	</div><!-- /header -->
+  <a href="#" onclick="document.getElementById('body').classList.toggle('open');" class="fa-solid fa-bars menu-btn"></a>
 
-<!-- 	<div data-role="content" data-theme="e">	
-        <ul data-role="listview" data-inset="true" data-filter="true">
-            <li><a href="#" >Python</a></li>
-            <li><a href="#">Ruby</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">FORT</a></li>
-            <li><a href="#">C#</a></li>
-            <li><a href="#">C++</a></li>
-        </ul>
-	</div> -->
+  
+	<div data-role="content">
 
-
-    <div data-role="content">
+    <h2>Por Jair Gonzalez</h2>
+			<p>Todos los ejercicios en clase realizados en el semestre 2022A En el curso de lenguajes de programación</p>
+            <p>Todos los ejercicios han sido testeados en <a href="https://www.codechef.com/ide">Codechef </a>  & en <a href="https://www.onlinegdb.com/">OnlineGDB</a>, puedes probarlos igual en cualquiera de los 2 IDES, encontrarás un boton para cada uno de ellos en la barra lateral</p>
+            <p>Para Entrar a codechef desde la barra lateral da clic en <i class="fa-solid fa-chess-king fa-xl"></i> y para onlineGDB en <i class="fa-solid fa-code fa-xl"></i></p>
+            <br>
+            <br>
 
         <ul data-role="listview">
-            <li data-role="list-divider">A</li>
-            <div data-role="collapsible" data-theme="b" data-content-theme="c">
-                <h2>Choose a car model...</h2>
-                <ul data-role="listview">
-                    <li><a href="index.html">Acura</a></li>
-                    <li><a href="index.html">Audi</a></li>
-                    <li><a href="index.html">BMW</a></li>
-                    <li><a href="index.html">Cadillac</a></li>
-                    <li><a href="index.html">Chrysler</a></li>
-                    <li><a href="index.html">Dodge</a></li>
-                    <li><a href="index.html">Ferrari</a></li>
-                    <li><a href="index.html">Ford</a></li>
-                    <li><a href="index.html">GMC</a></li>
-                    <li><a href="index.html">Honda</a></li>
-                    <li><a href="index.html">Hyundai</a></li>
-                    <li><a href="index.html">Infiniti</a></li>
-                    <li><a href="index.html">Jeep</a></li>
-                    <li><a href="index.html">Kia</a></li>
-                    <li><a href="index.html">Lexus</a></li>
-                    <li><a href="index.html">Mini</a></li>
-                    <li><a href="index.html">Nissan</a></li>
-                    <li><a href="index.html">Porsche</a></li>
-                    <li><a href="index.html">Subaru</a></li>
-                    <li><a href="index.html">Toyota</a></li>
-                    <li><a href="index.html">Volkswagon</a></li>
-                    <li><a href="index.html">Volvo</a></li>
-                </ul>
+            <!-- --------------------------------------------------------------- Corte 1 --------------------------------------------------------------- -->
+            <li data-role="list-divider">Corte 1</li>
+            <div data-role="collapsible" data-theme="c" data-content-theme="c">
+                <h2>Ejercicios</h2>
+                <ol data-role="listview" >
+                    <li><a href="/Cortes/template.html" >Hola Mundo</a></li>
+                    <li><a href="index.html">Nombre & edad simple</a></li>
+                    <li><a href="index.html">suma de 2 numeros</a></li>
+                    <li><a href="index.html">Operaciones sin sobrecarga</a></li>
+                    <li><a href="index.html">Operaciones con sobrecarga</a></li>
+                    <li><a href="index.html">Area cuadrado LxL</a></li>
+                    <li><a href="index.html">Area Rectangulo LxA</a></li>
+                    <li><a href="index.html">Radio del circulo</a></li>
+                    <li><a href="index.html">Mayoria de edad [if]</a></li>
+                    <li><a href="index.html">Calculo de edad segun fecha nacimiento, con validaciones [if]</a></li>
+                </ol>
             </div>
-            <li data-role="list-divider">B</li>
-            <li><a href="index.html">Bob Cabot</a></li>
-            <li data-role="list-divider">C</li>
-            <li><a href="index.html">Caleb Booth</a></li>
-            <li><a href="index.html">Christopher Adams</a></li>
-            <li><a href="index.html">Culver James</a></li>
-            <li data-role="list-divider">D</li>
-            <li><a href="index.html">David Walsh</a></li>
-            <li><a href="index.html">Drake Alfred</a></li>
-            <li data-role="list-divider">E</li>
-            <li><a href="index.html">Elizabeth Bacon</a></li>
-            <li><a href="index.html">Emery Parker</a></li>
-            <li><a href="index.html">Enid Voldon</a></li>
-            <li data-role="list-divider">F</li>
-            <li><a href="index.html">Francis Wall</a></li>
-            <li data-role="list-divider">G</li>
-            <li><a href="index.html">Graham Smith</a></li>
-            <li><a href="index.html">Greta Peete</a></li>
-            <li data-role="list-divider">H</li>
-            <li><a href="index.html">Harvey Walls</a></li>
-            <li data-role="list-divider">M</li>
-            <li><a href="index.html">Mike Farnsworth</a></li>
-            <li><a href="index.html">Murray Vanderbuilt</a></li>
-            <li data-role="list-divider">N</li>
-            <li><a href="index.html">Nathan Williams</a></li>
-            <li data-role="list-divider">P</li>
-            <li><a href="index.html">Paul Baker</a></li>
-            <li><a href="index.html">Pete Mason</a></li>
-            <li data-role="list-divider">R</li>
-            <li><a href="index.html">Rod Tarker</a></li>
-            <li data-role="list-divider">S</li>
-            <li><a href="index.html">Sawyer Wakefield</a></li>
-        </ul>
+            <div data-role="collapsible" data-theme="c" data-content-theme="c">
+              <h2>Parcial</h2>
+              <ol data-role="listview">
+                <li><a href="index.html">Mayoria edad con validaciones [if]</a></li>
+                <li><a href="index.html">Convertidor Grados Celsius a Grados Kelvin</a></li>
+                <li><a href="index.html">Consumo de combustible segun los Km</a></li>
+                <li><a href="index.html">Calcular hipotenusa de un triangulo</a></li>
+                <li><a href="index.html">Calculadora volumen de un cilindro</a></li>
+              </ol>
+            </div>
+            <!-- --------------------------------------------------------------- Corte 2 --------------------------------------------------------------- -->
+            <li data-role="list-divider">Corte 2</li>
+            <div data-role="collapsible" data-theme="c" data-content-theme="c">
+              <h2>Ejercicios</h2>
+              <ol data-role="listview" >
+                  <li><a href="index.html" >Calcular IMC [if]</a></li>
+                  <li><a href="index.html">Numero par o impar [if]</a></li>
+                  <li><a href="index.html">Determinar Nota Final [if]</a></li>
+                  <li><a href="index.html">Calcular numeros pares, impares y suma [if][for]</a></li>
+              </ol>
+          </div>
+          <div data-role="collapsible" data-theme="c" data-content-theme="c">
+            <h2>Parcial</h2>
+            <ol data-role="listview">
+              <li><a href="index.html">Promedio numeros positivos y negativos [if][for]</a></li>
+              <li><a href="index.html">Calcular uno de los lados de un triangulo rectángulo [if]</a></li>
+              <li><a href="index.html">Calcular promedio del dolar [if][for][array]</a></li>
+            </ol>
+          </div>
+
+                      <!-- --------------------------------------------------------------- Corte 3 --------------------------------------------------------------- -->
+
+            <li data-role="list-divider">Corte 3</li>
+            <div data-role="collapsible" data-theme="c" data-content-theme="c">
+              <h2>Ejercicios</h2>
+              <ol data-role="listview" >
+                  <li><a href="index.html" >Calcular promedio de numeros hasta escribir un negativo o 0 [while]</a></li>
+                  <li><a href="index.html">Calcular promedio de N numeros [while]</a></li>
+                  <li><a href="index.html">Imprimir numeros del 1 al N [while]</a></li>
+                  <li><a href="index.html">Calcular Factorial [while]</a></li>
+              </ol>
+          </div>
+          <div data-role="collapsible" data-theme="c" data-content-theme="c">
+            <h2>Parcial</h2>
+            <ol data-role="listview">
+              <li><a href="index.html">Reconocer palabras palindromas [if]</a></li>
+              <li><a href="index.html">Generador de primer y segundo nombre [array][for]</a></li>
+              <li><a href="index.html">Encriptador por metodo cesar [for]</a></li>
+              <li><a href="index.html">Contador de letras en una frase [for][if]</a></li>
+              <li><a href="index.html">Pedir contraseña N veces hasta que sea correcta [while][if]</a></li>
+            </ol>
+          </div>
+          </ul>
         </div><!--/content-primary -->
 
     <!-- /content -->
 
-    <h1>insertar texto jquery</h1>
-    <script>
-function load() {
-    var file = new XMLHttpRequest();
-    file.open("GET", "main.txt", true);
-    file.onreadystatechange = function() {
-      if (file.readyState === 4) {  // Makes sure the document is ready to parse
-        if (file.status === 200) {  // Makes sure it's found the file
-          text = file.responseText;
-          document.getElementById("div1").innerHTML = text;
-        }
-      }
-    }
-}
-
-window.onLoad = load();
-    </script>
-    <div id="div1"></div>
 
 
 
+
+
+
+            <!-- Codigo para cada uno de los ejercicios  Plantilla-->
+
+<!--Ejercicio -->
+<div data-role="collapsible" data-theme="c" data-content-theme="c">
+  <h2>Ejercicio</h2>
+  <ul data-role="listview">
+    <li><a href="index.html">C++</a></li>
+    <li><a href="index.html">C#</a></li>
+    <li><a href="index.html">Java</a></li>
+    <li><a href="index.html">Python</a></li>
+    <li><a href="index.html">Ruby</a></li>
+    <li><a href="index.html">Fortran</a></li>
+  </ul>
+</div>
+    <br>
+    <br>
     <div data-role="footer">
-        <h4>El footer</h4>
+        <h4>Hecho por Jair Gonzalez 2022A</h4>
     </div> 
+      
 
-</body>
+      
+
+
+    </div>
+    </body>
 </html>
