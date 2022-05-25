@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int des, i = 0, j=0;
+    char cadena[255] = {0};
+
+    printf("introduce la cadena de texto: ");
+    scanf("%s", cadena);
+
+    printf("\n introduce desplazamiento: ");
+    scanf("%d", &des);
+
+    for(; cadena[i]!='\0'; i++){
+        cadena[i]+= des;
+    }1
+    printf("\n cadena cifrada es: %s", cadena);
+
+    for(; cadena[j]!='\0'; j++){
+        cadena[j]-= des;
+    }
+    printf("\n cadena descifrada es: %s", cadena);
+
+}
